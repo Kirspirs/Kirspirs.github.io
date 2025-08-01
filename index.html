@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Тренажёр для подготовки к ЕГЭ по русскому языку - практика правильных ударений">
+    <meta property="og:title" content="Тренажёр ударений ЕГЭ по русскому">
+    <meta property="og:description" content="Практикуйте правильные ударения для успешной сдачи ЕГЭ">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://вашсайт.github.io">
+    <meta name="theme-color" content="#4285f4">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ВАШ_ID"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-ВАШ_ID');
+  </script>
+    <title>Тренажёр ЕГЭ по русскому</title>
+    
+</head>
+<body>
+    <main>
+        <h1>Тренажёр ударений ЕГЭ по русскому</h1>
+        <p>Нажимайте на кнопку, чтобы увидеть новое слово для тренировки</p>
+        <div class="stats">
+            <p>Использовано слов: <span id="used-count">0</span> из <span id="total-count">15</span></p>
+            <progress id="progress" value="0" max="100"></progress>
+        </div>
+        <div id="word-display">Нажмите "Следующее слово"</div>
+        
+        <button id="next-btn">Следующее слово</button>
+        <button id="reset-btn">Сбросить прогресс</button>
+        
+        <script src="main.js"></script>
+    </main>
+    <footer>
+        <p>All rights reserved © 2025</p>
+    </footer>
+</body>
+</html>
